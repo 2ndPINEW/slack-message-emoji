@@ -1,0 +1,12 @@
+{
+    "name": "SlackEmoji",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Slackのメッセージの句読点を絵文字にする",
+    "content_scripts": [{
+      "matches": ["https://app.slack.com/client/*"],
+      "js": [
+        "index.js"
+      ]
+    }]
+  }
